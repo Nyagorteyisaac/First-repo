@@ -52,7 +52,7 @@ def main():
 
         restart = input("\nWould you like to restart and enter another user's details? (yes/no): ").lower()
         if restart not in ["yes", "y"]:
-            print("Goodbye! 👋")
+            print("Goodbye! ")
             break
 
 if __name__ == "__main__":
